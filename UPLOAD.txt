@@ -1,0 +1,30 @@
+SOULILLRADIO.COM — UPLOAD
+=========================
+
+FILES     index.html    the whole site, everything inlined
+          share.png     link-preview image
+
+WHERE     Both go in the ROOT of the site, side by side.
+          index.html must keep that exact name.
+          share.png must sit at soulillradio.com/share.png or link
+          previews render blank.
+
+HOST      Netlify Drop (netlify.com/drop) — drag the unzipped folder on.
+          Then Site settings > Domain management > add soulillradio.com,
+          and point your registrar's DNS at the values Netlify shows.
+
+LIVE      The archive reads your SoundCloud profile directly. Post a public
+          track and it appears on the site with its title, date, length,
+          play count, artwork and real waveform. No redeploy needed.
+          Private and unlisted tracks are ignored.
+
+MANUAL    Tracklists  — send timestamps + artist/title, I add them
+          Events      — send date, venue, ticket link
+          Both show TO BE ANNOUNCED until then.
+
+KNOWN     The mailing list validates the address but does not store it.
+          Connect Kit or MailerLite and send me the form URL, or ask me
+          to remove the form.
+
+CHECK     Open it on a real phone once it is live — iOS handles the
+          SoundCloud player slightly differently from a desktop preview.
